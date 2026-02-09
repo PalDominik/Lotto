@@ -28,7 +28,6 @@
                     {
                         Console.WriteLine("Ez a szám már szerepel, kérem adjon meg egy másikat.");
                         i--;
-                        break;
                     }
 				}
 			}
@@ -40,6 +39,7 @@
 		static void Main(string[] args)
         {
             int [] nyeroszamok = LottoSzamokGeneralasMetodus();
-		}
+            int [] enszamaim = Bekerszamok(nyeroszamok);
+		}   
     }
 }
